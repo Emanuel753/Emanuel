@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+ 	background: #415b90;
+}
+a:hover{
+	text-decoration: none;
+}
+/***CABEZERA**/
+header{
+	background: url('../Imagenes/slide-1.png');
+	height: 900px;
+}
+
+/*BARRA1*/
+ .menu-conten{
+	background: rgba(0,0,0,.3);
+}
+#barra-nav ul{
+	list-style: none;
+	overflow: hidden;
+	display: table;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#barra-nav ul li a,#barra-nav ul li a:hover{
+	text-decoration: none;
+	color: white;
+}
+.buscador{
+	float: left;
+}
+nav,#barra-nav{
+	width: auto;
+
+}
+#busc-btn:hover{
+	cursor: pointer;
+}
+
+#busc-btn,#input-text,#bus2{
+	background: black;
+	border:.5px solid black;
+	color: white;
+}
+#bus2{
+	display: none;
+}
+#busc-btn:hover img{
+	display: none;
+}
+#busc-btn:hover #bus2{
+	display: inline-block;
+	transition:1s;
+}
+
+
+#barra-nav{
+	overflow: hidden;
+}
+.Primero,.Segundo,.Tercero{
+	float: left;
+	overflow: hidden;
+}
+.Primero li{
+		float: left;	
+}
+.Primero {
+		margin-right: 70px;
+}
+.Segundo li{
+		float: left;	
+}
+.Segundo li a{
+		padding-left: 28px;
+}
+.Segundo li a::before{
+	content: '/';
+	position: relative;
+	left: -10px;
+}
+.Segundo li:first-child a::before{
+	content: '';
+	position: relative;
+	left: -10px;
+}
+.Segundo li a:first-child{
+	content: none;
+
+}
+.Tercero li{
+		float: left;	
+}
+.Tercero li a{
+		margin-left: 28px;
+}
+.Tercero{
+	margin-left: 70px;
+}
+
+/*Barra2*/
+nav ul{
+	list-style: none;
+	overflow: hidden;
+	display: table;
+	margin: 0 auto;
+	border-bottom: 4px solid #fff; 
+	padding: 20px;
+}
+nav ul li{
+	float: left;
+	border-right:0.5px solid rgba(255,255,255,0.2);
+}
+nav ul li:last-child{
+	border-right: 0;
+}
+nav ul li a,nav ul li a:hover {
+	padding: 0 35px;
+	text-decoration: none;
+	color: white;
+}
+	.tringulo{
+		position: absolute;
+ 		margin-top: -130px;
+		width: 100%;
+		height: 230px;
+		background: #f1e290;
+		transform: skewy(7.25deg);
+ 
+	}
+article{
+	background: #f1e290;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	margin-top: -60px;
+}
+	#llamadas{
+		margin: 0 auto;
+		display: table;
+	}
+		#llamadas a{
+			color:#a37e47
+		}
+		#llamadas span{
+			font-size: 50px;
+			padding-left: 10px;
+			color:black;
+		}
+		#llamadas span:hover{
+			color:#a37e47
+		}
+		#llamadas::after{
+			content: '';
+			bottom: -70px;
+			left: -172px;
+			margin-left: -23px;
+			height: 3px;
+			width: 46px;
+			background: #aeaeae;
+			display: inline-block;
+			position: relative;
+		}
+	#titulo{
+		display: table;
+		margin: 100px auto;
+		width: 446px;
+		text-align: center;
+	}
+
