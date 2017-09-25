@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a,a:hover{
+	text-decoration: none;
+	color: white;
+}
+.padre{
+	background: black;
+}
+	header{
+		background: url('../Imagenes/Sin título.png');
+		background-position: center;
+		background-attachment: contain;
+		background-size:cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 675px;
+		overflow: hidden;
+	}
+		.menu{
+			background: rgba(0,0,0,.5);
+			overflow: hidden;
+		}
+			.menu div{
+				float: left;
+				
+			}
+			.menu a{
+				font-size: 18px;
+			}
+		
+		.logo,.nav,.redes{
+			height: 40px;
+			padding-top: 10px;
+		}
+		.logo{
+			
+			float: left;
+
+		}
+		.nav{
+			
+		}
+			.nav ul{
+				overflow: hidden;
+
+			}
+			.nav ul li{
+				float: left;
+
+			}
+			.nav ul li a{
+				padding-top: 10px;
+				padding-left: 45px;
+				
+			}
+		.redes{
+			
+			float: right;
+		}
+			.redes a{
+				padding:0 25px;
+			}
+	.texto{
+		background-color: rgba(255,255,255,.5);
+		position: absolute;
+		bottom: 150px;
+		border-radius: 10px;
+	}
+		.texto p{
+			color:rgba(0,0,0,1);;
+			font-size: 18px;
+		}
