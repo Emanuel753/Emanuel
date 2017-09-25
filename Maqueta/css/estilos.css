@@ -1,0 +1,26 @@
+body{
+	background: red;
+}
+.div-car,.div-car2,.div-car3,.div-car4{
+ 	padding: 25px;
+	height: 300px;
+ 	float: left;
+}
+.adentro4{
+	background: grey;
+}
+
+.adentro3{
+	background: blue;
+}
+
+.adentro2{
+	background: pink;
+}
+
+.adentro{
+	background: black;
+}
+.adentro,.adentro2,.adentro3,.adentro4{
+	height: 100%;
+}
